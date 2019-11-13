@@ -75,6 +75,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('news', 'News::index');
 $routes->get('addnews', 'News::addNews');
+$routes->post('savenews', 'News::savenews');
 
 /**
  * --------------------------------------------------------------------

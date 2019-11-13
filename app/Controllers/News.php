@@ -16,6 +16,11 @@ class News extends Controller
 
 	public function addNews()
 	{
-		echo "Adding News Here";
+		echo view("add_news");
+	}
+
+	public function savenews()
+	{
+		echo "save news here";
 	}
 }
